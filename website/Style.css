@@ -1,0 +1,178 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+html{
+	background:#111;
+}
+body{
+	background:silver;
+	height:900px;
+	width:800px;
+	margin:10 auto;
+}
+#header{
+	background:#d28bea;
+	height:200px;
+	width:100%;
+}
+#nav{
+	background:#be27f0;
+	height:30px;
+	width:100%;
+}
+#container{
+	background:#775e7f;
+	height:640px;
+	width:100%;
+}
+	
+#footer{
+	background:#be27f0;
+	height:30px;
+	width:100%;
+}
+#lftbx{
+	height:100%;
+	float:left;
+	background:#ed4929; 
+	width:25%;
+}
+#rgtbx{
+	height:100%;
+	float:right;
+	background:#36534a;
+	width:25%;
+}
+#navul li{
+	list-style-type:none;
+	display:inline;
+	padding-left:40px;
+	line-height:28px;
+}
+#navul li a,#lftul li a{
+	text-decoration:none;
+	color:white;
+}
+#navul li a:hover,#lftul li a:hover{
+	color:green;
+}
+#lftul li{
+	list-style-type:none;
+	padding-left:40px;
+	padding-top:70px;
+	padding-bottom:25px;
+}
+#logotxt{
+	width:25%;
+	height:100%;
+	background:green;
+	float:left;
+}
+#logo {
+	width:75%;
+	height:100%;
+	background:red;
+	float:right;
+}
+#logo img{
+	height:200px;
+	width:100%;
+}
+#logotxt h1{
+	padding-top:55px;
+	padding-left:25px;
+color:red;
+font-family:Imprint MT Shadow;
+}
+#user-login{
+	height:500px;
+	width:500px;
+	margin-left:150px;
+	margin-top:15px;
+	border-radius:5px;
+	border:5px solid #ff8000;
+}
+#user-login legend{
+	font-size:18px;
+	color:green;
+}
+#container h1{
+	color:yellow;
+	padding:10px;
+}
+#user-table tr td{
+	padding:10px;
+}
+#user-table{
+	margin:80px;
+}
+#user-table a{
+	color:green;
+	text-decoration:none;
+}
+#user-table a:hover{
+	color:yellow;
+	text-decoration:underline;
+}
+#user-table input[type="text"]{
+	width:150px;
+	height:30px;
+	border-radius:5px;
+	border:none;
+	font-size:20px;
+	color:blue;
+}
+#user-table input[type="password"]{
+	width:150px;
+	height:30px;
+	border-radius:5px;
+	border:none;
+	border:none;
+	font-size:20px;
+	color:blue;
+}
+#user-table input[type="submit"],#user-table input[type="reset"]{
+	width:100px;
+	height:30px;
+	border-radius:5px;
+	border:none;
+	font-size:20px;
+	color:white;
+}
+#sbtn{
+	background-color:blue;
+	color:white;
+}
+#clear{
+	background-color:red;
+	color:white;
+}
+#user-table select{
+	width:150px;
+	height:30px;
+	border-radius:5px;
+	border:none;
+	font-size:15px;
+	color:blue;
+}
+p{
+	margin:10px;
+}
+.error{
+	color:red;
+}
+.correct{
+	color:green;
+}
+	
+
+   
+
+
+
+	
+
+
+	
+	
